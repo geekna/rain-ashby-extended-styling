@@ -1,5 +1,9 @@
 /* stylelint-disable */
 
+body {
+  font-weight: 300!important;
+}
+
 /* These variables can be used to control values throughout the job board. */
 :root {
     /*  Darker primary color
@@ -11,6 +15,8 @@
     WARNING - This can be set in the Ashby admin under theme settings!
     If you modify, you should make sure your colors work with the settings there. */
     --colorPrimary600: black!important;
+
+    --colorNeutra700: black!important;
 
     /*  The max width of the job board container */
     --widthMaxJobBoard: 800px;
