@@ -5,12 +5,12 @@
     /*  Darker primary color
     WARNING - This can be set in the Ashby admin under theme settings!
     If you modify, you should make sure your colors work with the settings there. */
-    --colorPrimary900: darkorange!important;
+    --colorPrimary900: black!important;
 
     /*  Lighter primary color
     WARNING - This can be set in the Ashby admin under theme settings!
     If you modify, you should make sure your colors work with the settings there. */
-    --colorPrimary600: orange;
+    --colorPrimary600: black!important;
 
     /*  The max width of the job board container */
     --widthMaxJobBoard: 800px;
@@ -28,9 +28,9 @@
     --borderRadiusButton: 10px;
 
     /*  Font families */
-    --fontFamily: "Whitney SSm", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Helvetica", "Arial", "Apple Color Emoji", "Segoe UI Emoji", sans-serif ;
+    --fontFamily: "Antique Legacy", "Arial", sans-serif;
 
-    --colorAppBackground: #f7f8fa;
+    --colorAppBackground: red;
   }
 
 /* Application autofill input's base layer element. This contains standard copy, a CTA button, and potential validation alerts. */
